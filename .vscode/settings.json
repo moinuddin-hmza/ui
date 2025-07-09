@@ -1,6 +1,4 @@
 {
-
-
     "eslint.enable": true,
     "eslint.validate": [
         "javascript",
@@ -9,10 +7,33 @@
         "typescriptreact"
     ],
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
     },
     "editor.formatOnSave": false,
     "eslint.format.enable": true,
-    "editor.formatOnSaveMode": "modifications"
-}
+    "editor.formatOnSaveMode": "modifications",
 
+    "prettier.enable": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+
+    "files.autoSave": "onFocusChange",
+
+    "eslint.run": "onType",
+
+    "eslint.alwaysShowStatus": true,
+
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+
+    "editor.detectIndentation": true,
+
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "strings": true
+    }
+}
